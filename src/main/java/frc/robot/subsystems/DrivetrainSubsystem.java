@@ -23,7 +23,6 @@ import static frc.robot.Constants.*;
 public class DrivetrainSubsystem extends SubsystemBase {
   /**
    * The maximum voltage that will be delivered to the drive motors.
-   * <p>
    * This can be reduced to cap the robot's maximum speed. Typically, this is useful during initial testing of the robot.
    */
   public static final double MAX_VOLTAGE = 12.0;
@@ -35,7 +34,6 @@ public class DrivetrainSubsystem extends SubsystemBase {
   //   5880.0 / 60.0 / SdsModuleConfigurations.MK4_L2.getDriveReduction() * SdsModuleConfigurations.MK4_L2.getWheelDiameter() * Math.PI
   /**
    * The maximum velocity of the robot in meters per second.
-   * <p>
    * This is a measure of how fast the robot should be able to drive in a straight line.
    */
   public static final double MAX_VELOCITY_METERS_PER_SECOND = 6380.0 / 60.0 *
@@ -43,7 +41,6 @@ public class DrivetrainSubsystem extends SubsystemBase {
           SdsModuleConfigurations.MK3_STANDARD.getWheelDiameter() * Math.PI;
   /**
    * The maximum angular velocity of the robot in radians per second.
-   * <p>
    * This is a measure of how fast the robot can rotate in place.
    */
   // Here we calculate the theoretical maximum angular velocity. You can also replace this with a measured amount.
