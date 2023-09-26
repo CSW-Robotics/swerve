@@ -1,3 +1,5 @@
+https://www.chiefdelphi.com/t/official-sds-mk3-mk4-code/397109
+
 ### Configuring the code for your robot
 
 1. Set your team number. ✅
