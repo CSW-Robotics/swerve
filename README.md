@@ -1,6 +1,7 @@
 https://www.chiefdelphi.com/t/official-sds-mk3-mk4-code/397109
 
 see if mk4 will work with the mk3 code
+set up can coders
 
 ### Configuring the code for your robot
 
